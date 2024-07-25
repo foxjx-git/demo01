@@ -1,10 +1,10 @@
 package com.my.mydemo_01.dto;
 
-public class Account {
+public class AccountDTO {
     private String userName;
     private String password;
 
-    public Account() {
+    public AccountDTO() {
     }
 
     public String getUserName() {

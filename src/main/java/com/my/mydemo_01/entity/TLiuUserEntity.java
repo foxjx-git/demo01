@@ -1,9 +1,18 @@
 package com.my.mydemo_01.entity;
 
-public class TLiuUser {
+public class TLiuUserEntity {
+    private String userId;
     private String userName;
     private String password;
     private String address;
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
     public String getUserName() {
         return userName;
