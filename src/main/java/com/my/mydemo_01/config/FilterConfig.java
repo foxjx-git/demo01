@@ -21,6 +21,7 @@ public class FilterConfig {
         myFilter.setUserTokenService(userTokenService);
         filterRegistrationBean.addUrlPatterns("/*");
         filterRegistrationBean.addInitParameter("excludePatterns","/login,/role,/menu,/menutest,/menu1");
+        System.out.println("**********test***********");
         return filterRegistrationBean;
     }
 }
