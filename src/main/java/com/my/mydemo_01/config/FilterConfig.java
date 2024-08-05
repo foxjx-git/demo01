@@ -20,7 +20,7 @@ public class FilterConfig {
         filterRegistrationBean.setFilter(myFilter);
         myFilter.setUserTokenService(userTokenService);
         filterRegistrationBean.addUrlPatterns("/*");
-        filterRegistrationBean.addInitParameter("excludePatterns","/login");
+        filterRegistrationBean.addInitParameter("excludePatterns","/login,/role,/menu,/menutest,/menu1");
         return filterRegistrationBean;
     }
 }

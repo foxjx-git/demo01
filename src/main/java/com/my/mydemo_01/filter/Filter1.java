@@ -2,7 +2,7 @@ package com.my.mydemo_01.filter;
 
 import com.my.mydemo_01.entity.UserTokenEntity;
 import com.my.mydemo_01.service.UserTokenService;
-import org.springframework.beans.factory.annotation.Autowired;
+
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

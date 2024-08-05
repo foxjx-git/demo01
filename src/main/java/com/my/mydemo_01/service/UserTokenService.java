@@ -13,5 +13,5 @@ public interface UserTokenService {
     int updateUserToken(UserTokenEntity userTokenEntity);
     Boolean storeUserToken(UserTokenDTO userTokenDTO);
     List<UserTokenEntity> selectByToken(String token);
-    UserTokenEntity isValidToken(String token);
+    UserTokenEntity isValidToken(String userToken);
 }
